@@ -1,0 +1,11 @@
+.imgnama{
+    margin-bottom: -80px;
+    width: 35%;
+}
+
+@media not all and (min-width: 640px) {
+    .imgnama{
+        margin-bottom: -55px;
+        width: 50%;
+    }
+}

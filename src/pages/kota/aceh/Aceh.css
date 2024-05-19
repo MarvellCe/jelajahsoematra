@@ -1,0 +1,102 @@
+.container-map {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.map {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.content {
+  position: relative;
+}
+
+#pointer1 {
+  position: relative;
+  width: 50px;
+  top: 165px;
+  left: 227px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#pointer1:hover {
+  fill: #000000;
+  transform: translateY(-10px);
+}
+
+#kunci1 {
+  position: relative;
+  width: 50px;
+  top: 100px;
+  left: 372px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#kunci2 {
+  position: relative;
+  width: 50px;
+  top: 125px;
+  left: 640px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#kunci3{
+  position: relative;
+  width: 50px;
+  top: 235px;
+  left: 788px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#kunci4 {
+  position: relative;
+  width: 50px;
+  top: 135px;
+  left: 990px;
+  transition: transform 0.3s ease-in-out;
+}
+#kunci5 {
+  position: relative;
+  width: 50px;
+  bottom: 45px;
+  left: 1100px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.kota{
+  width: 70%;
+}
+
+.restoran{
+  margin-left: 500px;
+  margin-top: 230px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.hotel{
+  margin-top: -20px;
+  margin-left: -70px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.museum{
+  margin-top: 160px;
+  margin-right: 90px;
+}
+
+.status{
+  text-align: center;
+  width: 20%;
+  height: 500px;
+  margin-bottom: -350px;
+  margin-top: 100px;
+}
+
+.emce{
+  width: 40%;
+}
